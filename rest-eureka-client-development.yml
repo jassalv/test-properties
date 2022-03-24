@@ -47,7 +47,7 @@ spring:
       properties:
         log-base-dir: /app/atomikos-tlogs
         max-timeout: 900000
-
+        enable-logging: false
 
 ## MySQL
 spring.datasource:
